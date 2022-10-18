@@ -1,8 +1,6 @@
-chars_num = 19
-words_str = 'i love segment tree'
+chars_num = int(input())
+words_str = input()
 
-# chars_num = int(input())
-# words_str = input()
 
 def find_longest_word(some_text):
     longest_word = ''
@@ -11,6 +9,7 @@ def find_longest_word(some_text):
         if len(word) > len(longest_word):
             longest_word = word
     return longest_word
-    
+
+
 print(find_longest_word(words_str))
 print(len(find_longest_word(words_str)))

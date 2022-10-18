@@ -5,7 +5,7 @@ def make_matrix(n):
         matrix.append(line)
     return matrix
 
-    
+
 def find_neighbours(matrix, x, y):
     neighbours = []
     if x > 0:

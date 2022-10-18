@@ -1,8 +1,6 @@
-digit1 = 1100
-digit2 = 101111
+digit1 = int(input())
+digit2 = int(input())
 
-# digit1 = int(input())
-# digit2 = int(input())
 
 def binary_sum(num1, num2):
     res_list = []
@@ -39,10 +37,10 @@ def binary_sum(num1, num2):
                     carry = 1
                 else:
                     res_list.append(1)
-        
+
         if rng1 > rng2:
             for i in range(rng_min+1, rng_max+1):
-                
+
                 if carry == 1:
                     if num1_list[-i] == 1:
                         res_list.append(0)

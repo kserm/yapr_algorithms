@@ -1,6 +1,5 @@
 def moving_average(timeseries, K):
-    result = []  # Пустой массив.
-    # Первый раз вычисляем значение честно и сохраняем результат.
+    result = []
     current_sum = sum(timeseries[0:K])
     result.append(current_sum / K)
     for i in range(0, len(timeseries) - K):
@@ -14,6 +13,6 @@ def moving_average(timeseries, K):
 if __name__ == '__main__':
     n_sec = int(input())
     timeseries = [int(i) for i in input().split()]
-    k = int(input())   
+    k = int(input())
     res = moving_average(timeseries, k)
     print(*res, end=' ')

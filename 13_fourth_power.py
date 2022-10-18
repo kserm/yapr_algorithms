@@ -1,6 +1,5 @@
-digit = 64
+digit = int(input())
 
-# digit = int(input())
 
 def is_fourth_power(num):
     temp_num = num
@@ -19,5 +18,6 @@ def is_fourth_power(num):
             else:
                 return False
     return flag
+
 
 print(is_fourth_power(digit))

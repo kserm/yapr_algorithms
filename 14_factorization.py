@@ -1,7 +1,5 @@
-number = 917521579
+number = int(input())
 
-
-# number = int(input())
 
 def factorization(num):
     result = []
@@ -17,6 +15,7 @@ def factorization(num):
             else:
                 divider = int(temp_num)
     return result
+
 
 for i in factorization(number):
     print(i, end=' ')
