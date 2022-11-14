@@ -5,6 +5,8 @@ links to tasks list at yandex.contest.ru:
 
 [introduction to algorithms](https://contest.yandex.ru/contest/23389/problems/)
 
+[final tasks](https://contest.yandex.ru/contest/23390/problems/)
+
 _________________________________________________
 
 <details>
@@ -313,5 +315,58 @@ Input example:
 |`xtkpx`|string s|
 |`xkctpx`|string t|
 |`c`|output|
+
+</details>
+
+_________________________________________________
+_________________________________________________
+
+## Final tasks
+
+<details>
+<summary>
+Nearest zero (<a href="final_tasks_1_1/nearest_empty.py">nearest_empty.py</a>) 
+</summary>
+Given a sequence of segments. If the segment is marked with zero, then such a segment is free, in other cases the segment is occupied. For each segment, print the distance to the nearest zero. Output the numbers on one line, separating them with spaces.
+
+Input example:
+|Input|Description|
+|:-|:-|
+|`5`|number of segments|
+|`0 1 4 9 0`|segments|
+|`0 1 2 1 0`|output|
+|||
+|`6`|number of segments|
+|`0 7 9 4 8 20`|segments|
+|`0 1 2 3 4 5`|output|
+
+</details>
+
+_________________________________________________
+
+<details>
+<summary>
+Hands agility (<a href="final_tasks_1_1/hands_agility.py">hands_agility.py</a>) 
+</summary>
+The game "Speed typing simulator" is a field of 4x4 keys. In it, at each round, a configuration of numbers and points appears. Either a dot or a number from 1 to 9 is written on the key.
+The game is played by 2 players. At time t, the players must simultaneously press all the keys on which the number t is written. Players can press k keys at the same time each. If at time t all the necessary keys are pressed, then the players get 1 point.
+Find the number of points that players can earn if they press the keys together.
+
+Input example:
+|Input|Description|
+|:-|:-|
+|`3`|number k|
+|`1231`|board row|
+|`2..2`|board row|
+|`2..2`|board row|
+|`2..2`|board row|
+|`2`|output|
+|||
+|`4`|number k|
+|`1111`|board row|
+|`9999`|board row|
+|`1111`|board row|
+|`9911`|board row|
+|`1`|output|
 
 </details>
